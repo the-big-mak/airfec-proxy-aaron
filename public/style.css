@@ -1,0 +1,62 @@
+/* * {
+  box-sizing: border-box;
+} 
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+.header {
+  box-sizing: border-box;
+  color: #484848;
+  font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: 81px;
+  line-height: 1.43;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    position: relative;
+    z-index: 5;
+}
+
+.headerInnerContainer {
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 #DBDBDB;
+}
+
+.headerTable {
+  display: table;
+  width: 100%;
+}
+
+.container {
+  margin-right: 100px;
+}
+
+#appPhotos {
+  height: auto;
+  width: auto;
+}
+
+#overview {
+  margin-top: 24px;
+  max-width: 648px;
+  position: relative;
+  left: 140px;
+}
+
+#appReservations {
+  width: 100%;
+}
+
+#appReservations * {
+  box-sizing: border-box;
+}
+
+
+#reviewIndex {
+  margin-left: 10%;
+}
